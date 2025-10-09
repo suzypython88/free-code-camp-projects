@@ -1,4 +1,5 @@
 freeCodeCamp Course: 'Data Analysis with Python'
+https://www.freecodecamp.org/learn/data-analysis-with-python
 Certification Exercises
 
 Project 1: Mean-Variance-Standard Deviation Calculator
