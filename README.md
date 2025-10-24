@@ -7,7 +7,9 @@ https://www.freecodecamp.org/learn/data-analysis-with-python
 
 ### **Project 1: Mean-Variance-Standard Deviation Calculator**
 
-Project Details: https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/mean-variance-standard-deviation-calculator
+**Project Details:** https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/mean-variance-standard-deviation-calculator
+
+**Code File:** mean_var_std.py
 
 Create a function named calculate() in mean_var_std.py that uses Numpy to output the mean, variance, standard deviation, max, min,
 and sum of the rows, columns, and elements in a 3 x 3 matrix.
@@ -43,11 +45,15 @@ If a list containing less than 9 elements is passed into the function, it should
 
 ### **Project 2: Demographic Data Analyzer**
 
-Project Details: https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/demographic-data-analyzer
+**Project Details:** https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/demographic-data-analyzer
+
+**Code File:** demographic_data_analyzer.py
+
+**Data Set:** 'https://raw.githubusercontent.com/JakubPyt/Demographic_Data_Analyzer/main/adult.data.csv'
 
 In this challenge you must analyze demographic data using Pandas. You are given a dataset of demographic data that was extracted from the 1994 Census database.
 
-You must use Pandas to answer the following questions:
+**You must use Pandas to answer the following questions:**
 
 1. How many people of each race are represented in this dataset? This should be a Pandas series with race names as the index labels. (race column)
 
@@ -73,7 +79,11 @@ Round all decimals to the nearest tenth.
 ---
 ### **Project 3: Medical Data Visualizer**
 
-Project Details: https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/medical-data-visualizer
+**Project Details:** https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/medical-data-visualizer
+
+**Code File:** medical_data_visualizer.py
+
+**Data Set:** medical_examination.csv
 
 In this project, you will visualize and make calculations from medical examination data using matplotlib, seaborn, and pandas.
 The dataset values were collected during medical examinations.
@@ -136,7 +146,12 @@ method provided by the seaborn library import: sns.catplot().
 
 ---
 ### **Project 4: Page View Time Series Visualizer**
-Project Details: https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/page-view-time-series-visualizer
+
+**Project Details:** https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/page-view-time-series-visualizer
+
+**Code File:** time_series_visualier.py
+
+**Data Set:** fcc-forum-pageviews.csv
 
 For this project you will visualize time series data using a line chart, bar chart, and box plots. You will use Pandas, Matplotlib, and Seaborn to visualize a dataset containing the number of page views each day on the freeCodeCamp.org forum from 2016-05-09 to 2019-12-03. The data visualizations will help you understand the patterns in visits and identify yearly and monthly growth.
 
@@ -151,5 +166,29 @@ For this project you will visualize time series data using a line chart, bar cha
 5. Create a draw_bar_plot function that draws a bar chart similar to "examples/Figure_2.png". It should show average daily page views for each month grouped by year. The legend should show month labels and have a title of Months. On the chart, the label on the x axis should be Years and the label on the y axis should be Average Page Views.
    
 6. Create a draw_box_plot function that uses Seaborn to draw two adjacent box plots similar to "examples/Figure_3.png". These box plots should show how the values are distributed within a given year or month and how it compares over time. The title of the first chart should be Year-wise Box Plot (Trend) and the title of the second chart should be Month-wise Box Plot (Seasonality). Make sure the month labels on bottom start at Jan and the x and y axis are labeled correctly. The boilerplate includes commands to prepare the data. For each chart, make sure to use a copy of the data frame.
+The boilerplate also includes commands to save and return the image.
+
+---
+### **Sea Level Predictor**
+
+**Project Details:** https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/sea-level-predictor
+
+**Code File:** sea_level_predictor.py
+
+**Data Set:** epa-sea-level.csv
+
+You will analyze a dataset of the global average sea level change since 1880. You will use the data to predict the sea level change through year 2050.
+
+**Use the data to complete the following tasks:**
+
+1. Use Pandas to import the data from epa-sea-level.csv.
+   
+3. Use matplotlib to create a scatter plot using the Year column as the x-axis and the CSIRO Adjusted Sea Level column as the y-axis.
+   
+5. Use the linregress function from scipy.stats to get the slope and y-intercept of the line of best fit. Plot the line of best fit over the top of the scatter plot. Make the line go through the year 2050 to predict the sea level rise in 2050.
+   
+7. Plot a new line of best fit just using the data from year 2000 through the most recent year in the dataset. Make the line also go through the year 2050 to predict the sea level rise in 2050 if the rate of rise continues as it has since the year 2000.
+   
+9. The x label should be Year, the y label should be Sea Level (inches), and the title should be Rise in Sea Level.
 The boilerplate also includes commands to save and return the image.
 
