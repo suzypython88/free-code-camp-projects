@@ -1,6 +1,8 @@
 ## freeCodeCamp Course: 'Data Analysis with Python'
 https://www.freecodecamp.org/learn/data-analysis-with-python
 
+![alt text](https://github.com/suzypython88/free-code-camp-projects/blob/main/Certification%20Data%20Analysis%20with%20Python%20Oct%202025.png)
+
 ### Certification Exercises
 
 ---
